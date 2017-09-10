@@ -93,11 +93,11 @@ header i {
 }
 
 form {
-	width: 370px;
-	height: 390px;
+	width: 25.694444444%;
+	/*height: 390px;*/
 	position: absolute;
 	bottom: -5px;
-	margin-left: 150px;
+	margin-left: 10.416666666%;
 	background: white;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -106,14 +106,14 @@ form {
 }
 
 form input {
-	width: 295px;
+	width: 79.729729729%;
 	font-family: 'open_sansregular';
-	font-size: 15px;
+	font-size: 0.9375em;
 	border: none;
 	border-bottom: 1px solid #c7c7c7;
-	margin-bottom: 35px;
-	padding-bottom: 10px;
-	margin-left: 40px;
+	margin-bottom: 9.459459459%;
+	padding-bottom: 2.702702702%;
+	margin-left: 10.81081081%;
 }
 
 form input:nth-child(3) {
@@ -121,15 +121,15 @@ form input:nth-child(3) {
 }
 
 form input:nth-child(4) {
-	height: 110px;
+	height: 29.729729729%;
 	margin-bottom: 0;
 }
 
 #btn {
-	height: 50px;
-	width: 235px;
-	margin-left: 70px;
-	margin-top: 18px;
+	height: 10.256410256%;
+	width: 63.513513513%;
+	margin-left: 18.918918918%;
+	margin-top: 4.864864864%;
 	background: #ff5c36;
 	font-size: 1rem;
 	color: white;
@@ -224,7 +224,7 @@ form h3 {
     bottom: -1.75rem;
     left: 0.9375rem;
     font-size: 1em;
-    font-family: opensansreguar;
+    font-family: 'open_sansregular';
     background: white;
     color: black;
     width: 87.692307692%;
@@ -281,4 +281,159 @@ form h3 {
 
 .featured-work li:nth-child(3), .featured-work li:nth-child(6), .featured-work li:last-child {
 	margin-right: 0;
+}
+
+/*
+***********
+* =services
+***********
+*/
+
+.services {
+	position: absolute;
+	top: 3333px;
+	width: 100%;
+}
+
+.services .description {
+	margin-top: 9.027777777%;
+}
+
+.services-container {
+	margin-top: 10.069444444%;
+	margin-bottom: 19.930555555%;
+	position: relative;
+}
+
+.services i {
+	margin-top: 20%;
+	text-shadow: 10px 14px 34px rgba(0, 0, 0, 0.56);
+
+}
+
+.services ul {
+	float: left;
+	width: 6.944444444%;
+	padding-left: 10.416666666%;
+	margin: 0;
+	margin-top: 0.208333333%;
+}
+
+.services li{
+	text-align: center;
+	list-style: none;
+	width: 100%;
+	height: 90px;
+	background: #fbfbfb;
+	margin-bottom: 7%;
+	border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+	position: relative;
+	box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.29);
+
+}
+
+.services li:first-child i, .services li:last-child i {
+	-moz-transform: rotate(-25deg); /* Для Firefox */
+    -ms-transform: rotate(-25deg); /* Для IE */
+    -webkit-transform: rotate(-25deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(-25deg); /* Для Opera */
+    transform: rotate(-25deg);
+	color: #177d9c;
+	text-shadow: 3px 13px 40px rgba(0, 0, 0, 0.56);
+}
+
+.services li:nth-child(2) {
+	font-size: 0.875em;
+}
+
+#cog1, #cog2, #cog3, #search, #chart {
+	position: absolute;
+}
+
+#cog1 {
+	top: -10%;
+	right: 28%;
+	-moz-transform: rotate(19deg); /* Для Firefox */
+    -ms-transform: rotate(19deg); /* Для IE */
+    -webkit-transform: rotate(19deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(19deg); /* Для Opera */
+    transform: rotate(19deg);
+	color: #d8d86a;
+}
+
+#cog2 {
+	top: 25%;
+	left: 31%;
+	color: #177d9c;
+}
+
+#cog3 {
+	top: 13%;
+	left: 21%;
+	font-size: 1.25em;
+	color: white;
+}
+
+#chart {
+	color: #d8d86a;
+	left: 22%;	
+}
+
+#search {
+	font-size: 1.625em;
+	right: 18%;
+	-moz-transform: rotate(-15deg); /* Для Firefox */
+    -ms-transform: rotate(-15deg); /* Для IE */
+    -webkit-transform: rotate(-15deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(-15deg); /* Для Opera */
+    transform: rotate(-15deg);
+}
+
+.services li:last-child {
+	margin-bottom: 0;
+}
+
+.services-text {
+	width: 35.069444444%;
+	margin-left: 9.027777777%;
+	display: inline-block;
+}
+
+.services-text h3 {
+	margin: 0;
+	font-size: 1.875em;
+	font-family: 'open_sansregular';
+	font-weight: normal;
+}
+
+.services-text h3:after {
+	content: "____";
+	color: #ff5c36;
+	position: relative;
+	top: 0.33334em;
+	right: 9.16666666667em;
+	font-weight: bolder;
+}
+
+.services-text p {
+	font-size: 1em;
+	font-family: 'open_sansregular';
+	line-height: 1.5625em;
+}
+
+.services .btn {
+	text-align: center;
+    width: 16.666666666%;
+    height: fit-content;
+    left: 26.736111111%;
+    top: 113.558%;
+}
+
+.services img {
+	float: right;
+	width: 22.222222222%;
+	height: 26.944444444%;
+	margin-right: 9.027777777%;
 }
