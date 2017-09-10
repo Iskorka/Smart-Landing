@@ -6,8 +6,8 @@ Original design taken from here http://psd-html-css.ru/templates/besplatnyy-land
 
 I do not own any rights for the psd-design.
 <hr>
-Лэндинг с отзывчивым дизайном.
 
+Лэндинг с отзывчивым дизайном.
 
 Оригинал макета: http://psd-html-css.ru/templates/besplatnyy-landing-page-agenstva-psd
 
